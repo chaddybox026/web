@@ -5,20 +5,14 @@
 }
 @font-face {
 
-	font-family: Schwarzenberg;
-	src: url(Schwarzenberg.ttf);
+	font-family: Monteros;
+	src: url(fonts/Monteros.ttf);
 
 }
 @font-face {
 
-	font-family: Schwarzenberg-Italic;
-	src: url(Schwarzenberg-Italic.ttf);
-	font-style: italic;
-
-}
-* {
-
-	font-family: Schwarzenberg;
+	font-family: Ubuntu;
+	src: url(fonts/ubuntu-font/Ubuntu-R.ttf);
 
 }
 html {
@@ -31,25 +25,14 @@ html {
 	background-repeat: no-repeat;
 
 }
-body {
-
-	background-color: rgba(255, 255, 255, 0.5);
-	padding: var(--element-spacing);
-
-}
-a {
-
-	color: black;
-	text-decoration: none;
-
-}
-.header {
+div.header {
 
 	background-color: rgba(255, 255, 255, 0.5);
 	background-position: center;
 	margin-bottom: var(--element-spacing);
 	padding: var(--element-spacing);
 	position: relative;
+	font-family: Monteros;
 	letter-spacing: 2px;
 
 }
@@ -76,6 +59,19 @@ a {
 
 
 }
+a {
+
+	color: black;
+	text-decoration: none;
+
+}
+body {
+
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: var(--element-spacing);
+	font-family: Ubuntu;
+
+}
 .mainBody {
 
 	background-color: rgba(255, 255, 255, 0.5);
@@ -85,7 +81,8 @@ a {
 }
 .bodyHeader {
 
-
+	margin: 0px;
+	//margin-bottom: 5px;
 
 }
 .bodyParagraph {
@@ -93,7 +90,11 @@ a {
 	margin: 0px;
 	text-align: justify;
 	font-size: 22px;
-	font-kerning: auto;
-	letter-spacing: 1px;
+
+}
+hr {
+
+	border: .5px solid black;
+	margin: 4.5px;
 
 }
