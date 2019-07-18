@@ -3,45 +3,97 @@
 	--element-spacing: 10px;
 
 }
+@font-face {
+
+	font-family: Schwarzenberg;
+	src: url(Schwarzenberg.ttf);
+
+}
+@font-face {
+
+	font-family: Schwarzenberg-Italic;
+	src: url(Schwarzenberg-Italic.ttf);
+	font-style: italic;
+
+}
+* {
+
+	font-family: Schwarzenberg;
+
+}
 html {
 
-	background-image: url("background.jpg");
+	background-image: url(background.jpg);
 	min-height: 100%;
 	height: auto;
 	background-position: center top;
 	background-size: cover;
 	background-repeat: no-repeat;
-	font-family: "Comic Sans MS", cursive, sans-serif;
 
 }
 body {
 
 	background-color: rgba(255, 255, 255, 0.5);
-	margin: var(--element-spacing);
 	padding: var(--element-spacing);
 
 }
-.mainHeader {
+a {
+
+	color: black;
+	text-decoration: none;
+
+}
+.header {
 
 	background-color: rgba(255, 255, 255, 0.5);
 	background-position: center;
 	margin-bottom: var(--element-spacing);
 	padding: var(--element-spacing);
+	position: relative;
+	letter-spacing: 2px;
 
 }
-h1 {
+.headerTitle {
 
-	text-align: center;
+	display: inline-block;
+	margin: 0px;
+
+}
+.headerButtons {
+
+	display: inline;
+	float: right;
+	margin: 0px;
+	position: absolute;
+	top: 50%;
+	right: var(--element-spacing);
+	transform: translate(0, -50%);
+
+}
+.button {
+
+	margin: 0px;
+
 
 }
 .mainBody {
 
 	background-color: rgba(255, 255, 255, 0.5);
+	margin: 0px;
 	padding: var(--element-spacing);
 
 }
-p {
+.bodyHeader {
 
+
+
+}
+.bodyParagraph {
+
+	margin: 0px;
 	text-align: justify;
+	font-size: 22px;
+	font-kerning: auto;
+	letter-spacing: 1px;
 
 }
