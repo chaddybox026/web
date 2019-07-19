@@ -38,7 +38,7 @@ div.header {
 }
 .headerTitle {
 
-	display: inline-block;
+	display: inline;
 	margin: 0px;
 
 }
@@ -87,7 +87,7 @@ body {
 .bodyHeader {
 
 	margin: 0px;
-	//margin-bottom: 5px;
+	display: inline;
 
 }
 .bodyParagraph {
