@@ -56,7 +56,12 @@ div.header {
 .button {
 
 	margin: 0px;
+	padding: 5px 5px;
 
+}
+.button:hover {
+
+	background-color: rgba(128, 128, 128, 0.5)
 
 }
 a {
