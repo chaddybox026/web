@@ -90,7 +90,7 @@ body {
 }
 .bodyParagraph {
 
-	margin: 0px;
+	margin-bottom: var(--elementspacing);
 	text-align: justify;
 	font-size: 22px;
 
