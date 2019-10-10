@@ -45,29 +45,26 @@ div.header {
 .headerButtons {
 
 	display: inline;
-	float: right;
 	margin: 0px;
+	padding: 0px;
 	position: absolute;
-	top: 50%;
 	right: var(--element-spacing);
-	transform: translate(0, -50%);
+	text-align: center;
 
 }
 .button {
 
-	margin: 0px;
-	padding: 5px 5px;
+	border: none;
+	background-color: Transparent;
+	font-family: inherit;
+	font-size: inherit;
+	margin-left: calc(var(--element-spacing));
+	padding: calc(var(--element-spacing)/2);
 
 }
 .button:hover {
 
 	background-color: rgba(128, 128, 128, 0.5)
-
-}
-a {
-
-	color: black;
-	text-decoration: none;
 
 }
 body {
@@ -100,6 +97,6 @@ body {
 hr {
 
 	border: .5px solid black;
-	margin: 4.5px;
+	margin: var(--element-spacing) 0px;
 
 }
