@@ -39,7 +39,7 @@ div.header {
 .headerTitle {
 
 	display: inline;
-	margin: 0px;
+	margin: auto;
 
 }
 .headerButtons {
@@ -58,7 +58,8 @@ div.header {
 	background-color: Transparent;
 	font-family: inherit;
 	font-size: inherit;
-	margin-left: calc(var(--element-spacing));
+	font-weight: bold;
+	margin-left: calc(var(--element-spacing)/2);
 	padding: calc(var(--element-spacing)/2);
 
 }
