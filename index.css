@@ -32,7 +32,7 @@ div.header {
 	margin-bottom: var(--element-spacing);
 	padding: var(--element-spacing);
 	position: relative;
-	font-family: Monteros;
+	font-family: Ubuntu;
 	letter-spacing: 2px;
 
 }
