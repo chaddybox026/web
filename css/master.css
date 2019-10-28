@@ -11,7 +11,7 @@
 }
 html {
 
-	background-image: url(background.jpg);
+	background-image: url(/background.jpg);
 	min-height: 100%;
 	height: auto;
 	background-position: center top;
