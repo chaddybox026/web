@@ -6,7 +6,7 @@
 @font-face {
 
 	font-family: Ubuntu;
-	src: url(fonts/ubuntu-font/Ubuntu-R.ttf);
+	src: url(/fonts/ubuntu-font/Ubuntu-R.ttf);
 
 }
 html {
